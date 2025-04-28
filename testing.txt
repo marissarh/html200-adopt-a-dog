@@ -1,0 +1,29 @@
+
+User Persona -> First Time Dog Owner
+
+Name: Dave Deal
+Age: 25 
+Home Environment: Single Individual, Apartment Renter, Work from Home
+Lifestyle: Work 40hrs/wk, enjoys outdoor activities (hiking, paddle boarding, etc), 
+           often hosts brunch on the weekends
+Looking for a dog that is: 40lb max, house/crate trained, gets along with other dogs, people-friendly
+Other details: Owns a 2 year old smartphone, and a 4 year old computer, uses iOS Safari & Google Chrome
+
+User Personas -> Married Couple
+
+Name: Steve & Stacy Kane
+Ages: Early 30's
+Home Environment: Bungalow style home, both work full time, wife works close to home, fenced-in backyard
+Location: Live in the suburbs
+Lifestyle: Wife enjoys her daily walks in evenings; husband enjoys working in the yard,
+           tending to their garden; both enjoy going on weekend getaways
+Looking for a dog that: okay with being an only dog, enjoys road trips
+Other details: husband uses a 2 year old smartphone, and tablet uses Google Chrome and Microsoft Edge
+               wife uses a 2 year old ipad, and 4 year old iphone, uses iOS Safari & Google Chrome
+
+Test -> Browsers & Devices
+
+iOS Safari, Google Chrome, Microsoft Edge
+ipad, Surface Pro 7, iphone, 
+
+
