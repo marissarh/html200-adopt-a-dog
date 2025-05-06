@@ -26,4 +26,10 @@ Test -> Browsers & Devices
 iOS Safari, Google Chrome, Microsoft Edge
 ipad, Surface Pro 7, iphone, 
 
+Testing:
+
+Using Chrome and Edge, I used the browser developer tools available to view site on the three devices listed above.
+I also tested site on Safari browser.  
+
+
 

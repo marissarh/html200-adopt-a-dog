@@ -1,0 +1,71 @@
+header{
+    background-color: rgb(11, 59, 96);
+    
+}
+h1{
+    color: white;
+}
+h2{
+    color: rgb(127, 181, 72);
+}
+#checkout{
+    background-color: rgb(127, 181, 72);
+    color: white;
+    text-decoration: none;
+}
+#price{
+    color: white;
+}
+nav{
+    background-color: rgb(236, 236, 236);
+    padding: 2%;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#header-nav{
+    padding-left: 1%;
+    color: rgb(11, 59, 96);
+}
+h3{
+    color: rgb(11, 59, 96);
+}
+
+#dogs{
+    background-color: rgb(236, 236, 236);
+    color: rgb(11, 59, 96);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    font-weight: bold;
+
+}
+button{
+    background-color: rgb(127, 181, 72);
+    color: white;
+    border: none;
+    padding: 1% 2% 1% 2%;
+}
+
+footer{
+    background-color:rgb(61, 61, 61);
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+footer nav{
+    background-color: rgb(61, 61, 61);
+    padding: 0%;
+    color: white;
+
+}
+footer nav a {
+    color: white;
+}
+footer img{
+    width: 25%;
+    
+}
