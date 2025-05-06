@@ -30,3 +30,22 @@ nav a{
     padding-left: 1%;
     color: rgb(11, 59, 96);
 }
+footer{
+    background-color:rgb(61, 61, 61);
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+footer nav{
+    background-color: rgb(61, 61, 61);
+    padding: 0%;
+    color: white;
+
+}
+footer nav a {
+    color: white;
+}
+footer img{
+    width: 25%;
+    
+}
