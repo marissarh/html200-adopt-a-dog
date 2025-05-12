@@ -26,29 +26,29 @@ nav a{
     text-decoration: none;
     font-weight: bold;
 }
-#header-nav{
+.header-nav{
     padding-left: 1%;
     color: rgb(11, 59, 96);
 }
-h3, h4{
+h3{
     color: rgb(11, 59, 96);
 }
-footer{
-    background-color:rgb(61, 61, 61);
-    text-align: center;
-    color: white;
-    padding: 3%;
-}
-footer nav{
-    background-color: rgb(61, 61, 61);
-    padding: 0%;
-    color: white;
 
+fieldset{
+    border: none;
 }
-footer nav a {
+fieldset input{
+    display: inline;
+}
+button{
+    background-color: rgb(127, 181, 72);
     color: white;
+    border: none;
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 1%;
 }
-footer img{
-    width: 25%;
+.info{
+    padding: 20px 20px;
     
-}
+    
+  }
