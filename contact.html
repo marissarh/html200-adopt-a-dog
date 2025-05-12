@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Adopt A Dog</title>
-        <link rel="stylesheet" href="styles/stylesheet.css">
+        <link rel="stylesheet" href="styles/contact-styles.css">
     </head>
     <body>
         <header>
@@ -30,18 +30,21 @@
 
 
         <h3>Contact Form</h3>
+        <form>
         <label for="fullName">Full Name</label>
         <input type="text" id="fullName"><br>
         <label for="email">Email Address</label>
         <input type="text" id="email"><br>
         <label for="phone">Phone Number</label>
         <input type="number" id="phone"><br>
-        <fieldset>
-            <legend>Do you prefer to reached by phone or email?</legend>
-            <label>Phone</label>
-            <input type="checkbox" name="type" value="phone">
-            <label>Email</label>
-            <input type="checkbox" name="type" value="email">
+        <fieldset class="checkbox">Do you prefer to reached by phone or email?
+            <label>
+                <input type="checkbox" name="type" value="phone">Phone
+            </label>
+            
+            <label>
+                <input type="checkbox" name="type" value="email">Email
+            </label>
         </fieldset>
         <fieldset>
             <legend>Are you interested in adopting a dog now?</legend>
@@ -54,17 +57,18 @@
            <legend>
                 What size dog are you interested in?
             </legend>
-            <label>Small</label>
-            <input type="checkbox" name="type" value="small">
-            <label>Medium</label>
-            <input type="checkbox" name="type" value="medium">
-            <label>Large</label>
-            <input type="checkbox" name="type" value="large">
+            <select name="size">
+                <option value="small">less than 15lb</option>
+                <option value="medium">15lb to 30lb</option>
+                <option value="large">30lb to 50lb</option>
+                <option value="extraLarge">more than 50lbs</option>
+            </select>
+            
         </fieldset>
         <fieldset>
             <legend>Do you have any questions for us?</legend>
             <textarea name="questions" rows="4" cols="50"></textarea>
         </fieldset>
-        <button type="submit" form="a-form">Submit</button>
-
+        <button type="submit" >Submit</button>
+</form>
        
