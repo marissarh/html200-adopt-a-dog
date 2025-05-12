@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Adopt A Dog</title>
+        <link rel="stylesheet" href="styles/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>ADOPTADOG</h1>
+            <h2>Seattle's premiere dog adoption agency</h2>
+            <aside>
+                <img src="images/cart-icon.svg" alt="cart-icon" width="30" height="40" >
+                <p id="price">$1234.56</p>
+                <a href="checkout.html" id="checkout">Checkout</a>
+            </aside>
+        </header>
+        <nav>
+            
+            <a href="index.html" id="header-nav">Home</a>
+            <span id="header-nav">/</span>
+            <a href="dogs.html" id="header-nav">Dogs</a>
+            <span id="header-nav">/</span>
+            <a href="blog.html" id="header-nav">Blog</a>
+        </nav>
+        <!--Add a new page to course project that includes a contact form. 
+        The form should be validated HTML, include at least five types of 
+        inputs, and be styled with at least fifteen lines of validated CSS.  
+        Push to GitHub when complete.-->
+
+
+        <h3>Contact Form</h3>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName"><br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email"><br>
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone"><br>
+        <fieldset>
+            <legend>Do you prefer to reached by phone or email?</legend>
+            <label>Phone</label>
+            <input type="checkbox" name="type" value="phone">
+            <label>Email</label>
+            <input type="checkbox" name="type" value="email">
+        </fieldset>
+        <fieldset>
+            <legend>Are you interested in adopting a dog now?</legend>
+            <label>Yes</label>
+            <input type="radio" name="Now" value="yes">
+            <label>No</label>
+            <input type="radio" name="Now" value="no">
+        </fieldset>
+        <fieldset>
+           <legend>
+                What size dog are you interested in?
+            </legend>
+            <label>Small</label>
+            <input type="checkbox" name="type" value="small">
+            <label>Medium</label>
+            <input type="checkbox" name="type" value="medium">
+            <label>Large</label>
+            <input type="checkbox" name="type" value="large">
+        </fieldset>
+        <fieldset>
+            <legend>Do you have any questions for us?</legend>
+            <textarea name="questions" rows="4" cols="50"></textarea>
+        </fieldset>
+        <button type="submit" form="a-form">Submit</button>
+
+       
